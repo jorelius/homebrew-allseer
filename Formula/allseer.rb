@@ -6,8 +6,8 @@ class Allseer < Formula
   license "MIT"
   on_macos do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jorelius/AllSeer/releases/download/v1.0.0/allseer.1.0.8.osx-x64.tar.gz"
-      sha256 "73508d74c1705ec98b19c491de7c4de1b8b5555bcbae18d621a82d7cf3e5cce0"
+      url "https://github.com/jorelius/AllSeer/releases/download/v1.0.0/allseer.1.0.0.osx-x64.tar.gz"
+      sha256 "72dd13cc78ae38813d3c99f4b5002e729cf8e3344dcfcd6c7cfc7ffbeaebe0de"
 
       def install
         cp_r '.', bin
@@ -17,8 +17,8 @@ class Allseer < Formula
   end
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/jorelius/AllSeer/releases/download/v1.0.0/allseer.1.0.8.linux-x64.tar.gz"
-      sha256 "42fd997965b000e0d1bdcbe2cf0053baac32806bbbbf0ee9b3d311237677b250"
+      url "https://github.com/jorelius/AllSeer/releases/download/v1.0.0/allseer.1.0.0.linux-x64.tar.gz"
+      sha256 "d7aeb604e543fe810fa2de437d2ac53a4d4b1c31a2b3ece61a3c9c545146015a"
 
       def install
         cp_r '.', bin
